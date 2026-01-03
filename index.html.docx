@@ -1,0 +1,141 @@
+!DOCTYPE html
+html lang=en
+head
+  meta charset=UTF-8
+  titleEvent & Balloon Décortitle
+  meta name=viewport content=width=device-width, initial-scale=1.0
+  style
+    body {
+      margin 0;
+      font-family Arial, sans-serif;
+      background #fff7fb;
+      color #333;
+    }
+    header {
+      background #ff69b4;
+      color white;
+      padding 30px 20px;
+      text-align center;
+    }
+    nav a {
+      margin 0 10px;
+      color white;
+      text-decoration none;
+      font-weight bold;
+    }
+    section {
+      padding 40px 20px;
+      max-width 1000px;
+      margin auto;
+    }
+    h2 {
+      color #ff1493;
+      text-align center;
+    }
+    .gallery {
+      display grid;
+      grid-template-columns repeat(auto-fit, minmax(200px, 1fr));
+      gap 15px;
+    }
+    .gallery img {
+      width 100%;
+      border-radius 10px;
+    }
+    .contact, .feedback {
+      text-align center;
+    }
+    form {
+      max-width 400px;
+      margin auto;
+    }
+    input, textarea, button {
+      width 100%;
+      padding 10px;
+      margin-top 10px;
+      border-radius 5px;
+      border 1px solid #ccc;
+    }
+    button {
+      background #ff69b4;
+      color white;
+      border none;
+      font-size 16px;
+      cursor pointer;
+    }
+    footer {
+      background #222;
+      color white;
+      text-align center;
+      padding 20px;
+    }
+    .social a {
+      color white;
+      margin 0 10px;
+      font-size 18px;
+      text-decoration none;
+    }
+  style
+head
+body
+
+header
+  h1Your Business Nameh1
+  pBeautiful Event Styling & Balloon Décorp
+  nav
+    a href=#aboutAbouta
+    a href=#galleryGallerya
+    a href=#contactContacta
+    a href=#feedbackFeedbacka
+  nav
+header
+
+section id=about
+  h2About Ush2
+  p style=text-aligncenter;
+    We create stunning balloon décor and event setups for birthdays, weddings,
+    baby showers, corporate events and special occasions. Our goal is to make
+    your event unforgettable with beautiful designs and professional service.
+  p
+section
+
+section id=gallery
+  h2Our Workh2
+  div class=gallery
+    img src=httpsvia.placeholder.com400x300text=Balloon+Arch
+    img src=httpsvia.placeholder.com400x300text=Birthday+Setup
+    img src=httpsvia.placeholder.com400x300text=Event+Decor
+    img src=httpsvia.placeholder.com400x300text=Custom+Balloons
+  div
+section
+
+section id=contact class=contact
+  h2Contact & Enquiriesh2
+  pEmail yourbusiness@email.comp
+  pPhone  WhatsApp 000-000-0000p
+
+  form action=httpsformspree.iofyourformid method=POST
+    input type=text name=name placeholder=Your Name required
+    input type=email name=email placeholder=Your Email required
+    textarea name=message rows=4 placeholder=Tell us about your event requiredtextarea
+    button type=submitSend Enquirybutton
+  form
+section
+
+section id=feedback class=feedback
+  h2Customer Feedbackh2
+  p⭐️⭐️⭐️⭐️⭐️ “Amazing service and beautiful balloons!”p
+  p⭐️⭐️⭐️⭐️⭐️ “Highly recommend for any event.”p
+section
+
+footer
+  pFollow Usp
+  div class=social
+    a href=httpsinstagram.comyourpage target=_blankInstagrama
+    a href=httpsfacebook.comyourpage target=_blankFacebooka
+    a href=httpstiktok.com@yourpage target=_blankTikToka
+  div
+  p&copy; 2026 Your Business Namep
+footer
+
+body
+html
